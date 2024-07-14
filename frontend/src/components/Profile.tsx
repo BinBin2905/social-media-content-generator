@@ -46,7 +46,8 @@ const Profile: React.FC = () => {
 
   return (
     <Box>
-      {contents.map((content) => (
+      Profile
+      {contents?.map((content) => (
         <Box key={content.id}>
           <p>{content.data}</p>
           <Button onClick={() => unSaveContent(content.id)}>Unsave</Button>

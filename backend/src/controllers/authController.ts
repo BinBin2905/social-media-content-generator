@@ -13,6 +13,9 @@ import {
   where,
 } from "firebase/firestore";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 const twilioAccountSid = process.env.TWILIO_ACCOUNT_SID as string;
 const twilioAuthToken = process.env.TWILIO_AUTH_TOKEN as string;
 const client = new twilio(twilioAccountSid, twilioAuthToken);

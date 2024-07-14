@@ -4,9 +4,6 @@ import authRoute from "./routes/authRoute.js";
 import contentRoute from "./routes/contentRoute.js";
 import cors from "cors";
 
-import dotenv from "dotenv";
-dotenv.config();
-
 const app = express();
 
 app.use(cors());
