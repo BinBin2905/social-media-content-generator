@@ -1,0 +1,41 @@
+# Bỏ qua file .env chứa thông tin nhạy cảm
+.env
+frontend/.env
+backend/.env
+
+# Bỏ qua thư mục node_modules chứa các thư viện cài đặt qua npm
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Bỏ qua thư mục build hoặc dist nếu bạn có các file biên dịch
+build/
+dist/
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Bỏ qua các file log
+*.log
+
+# Bỏ qua các thư mục tạm thời hoặc cache
+tmp/
+temp/
+.cache/
+frontend/tmp/
+frontend/temp/
+frontend/.cache/
+backend/tmp/
+backend/temp/
+backend/.cache/
+
+# Bỏ qua các file hệ điều hành hoặc editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+frontend/.vscode/
+frontend/.idea/
+backend/.vscode/
+backend/.idea/
